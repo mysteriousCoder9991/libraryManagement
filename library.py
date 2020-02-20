@@ -1,7 +1,7 @@
 # Parent Library class
 import json 
 
-available_books  = "files/available_books.json"
+available_books  = "available_books.json"
 class Library:
     """ This is the parent Library class """
     def __init__(self, location, librarian_id):
